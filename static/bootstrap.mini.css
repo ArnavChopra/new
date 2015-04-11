@@ -1,0 +1,7 @@
+app.py + t/index.html
+
+Hello World
+{% for message in message %}
+	<p> {{message.message}} was posted by {{message.posted_by}}</p>
+
+{% endfor %}
